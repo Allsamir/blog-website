@@ -1,0 +1,76 @@
+ body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+.main-content {
+    margin-bottom: 3rem;
+} 
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.main-content {
+    padding: 2rem 1rem;
+}
+
+.page-title {
+    margin: 2rem 0;
+}
+
+footer {
+     background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: .5rem 1rem;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+form input {
+    width: 100%;
+    min-height: 40px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form textarea {
+    width: 100%;
+    min-height: 200px;
+}
+
+.blog-title, .blog-post {
+    margin-top: 20px;
+}
+
+.post {
+    margin-top: 2rem;
+}
+

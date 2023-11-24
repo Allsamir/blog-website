@@ -1,0 +1,30 @@
+<%- include("partials/header") -%>
+
+          <h2 class="text-center page-title">Home</h2>
+          
+          <div class="first-paragraph">
+          
+                    <h4 class="fp-title">Today's Journey</h4>
+                    <p class="fp-des"><%= fpText %></p>
+          </div>
+
+          <!-- Js code to display the post in home page --> 
+
+          <% posts.forEach((post) => { %>
+                    
+                    <div class="new-post">
+                              <h4 class="post-title"> <%= post.title %></h4>
+                              <p class="post-body"> <%= post.body.substring(0,100) %>... <a href="<%= post.title %>">Read More</a></p>
+                    </div>
+
+          <%});%>
+
+          <div class="post text-center">
+
+                    <button><a class="nav-link" href="/compose">Create Post</a></button>
+          </div>
+
+         
+
+<%- include("partials/footer") -%>
+ 
